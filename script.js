@@ -1,15 +1,14 @@
-// Clean Navigation & UI Interaction Controller Model
+
 document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
 
     if (menuToggle && navLinks) {
-        // Toggle the mobile contextual popover menu
+        
         menuToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
             menuToggle.classList.toggle('open');
             
-            // Modern micro-interaction lines transformation sequence loops
             const barLines = menuToggle.querySelectorAll('span');
             if (navLinks.classList.contains('active')) {
                 barLines[0].style.transform = 'rotate(45deg) translate(6px, 6px)';
@@ -22,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Auto collapse navigation tray on selection items trigger actions
         document.querySelectorAll('.nav-item').forEach(linkItem => {
             linkItem.addEventListener('click', () => {
                 navLinks.classList.remove('active');
@@ -34,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Modern reveal-on-scroll trigger pattern for design components
+  
     const targetCards = document.querySelectorAll('.project-card, .skill-category');
     const visualObserverOptions = {
         threshold: 0.1,
