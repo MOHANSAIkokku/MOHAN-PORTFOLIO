@@ -1,4 +1,4 @@
-/* Modern Clean Light Blue & Soft White Aesthetic Scheme */
+
 :root {
     --bg-white: #ffffff;
     --bg-soft-blue: #f4f8fc;
@@ -33,7 +33,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-/* Modern Clean Glassmorphism Navbar Configuration */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -225,7 +225,7 @@ body {
     color: var(--accent-blue);
 }
 
-/* Modern Technical Skills Framework layout rules */
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -269,7 +269,7 @@ body {
     color: var(--text-muted);
 }
 
-/* Project Modular Flex Grid Configurations Layout blocks rules */
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
@@ -325,7 +325,7 @@ body {
     color: var(--text-dark);
 }
 
-/* Split Profile Timeline Section Elements configurations design logic rules */
+
 .education-layout {
     display: grid;
     grid-template-columns: 1.2fr 0.8fr;
@@ -417,7 +417,7 @@ body {
     font-size: 0.9rem;
 }
 
-/* High Contrast Minimal Contact Block Layout designs profiles */
+
 .contact-banner {
     padding: 6rem 0;
 }
@@ -485,7 +485,7 @@ body {
     font-size: 0.9rem;
 }
 
-/* Fluid Scalable Responsive Overrides Rules limits */
+
 @media (max-width: 992px) {
     .hero-title { font-size: 3rem; }
     .projects-grid, .education-layout { grid-template-columns: 1fr; gap: 3rem; }
